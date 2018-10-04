@@ -1,0 +1,26 @@
+/* You can add global styles to this file, and also import other style files */
+
+
+
+#jb{
+    margin: 0px;
+    padding: 2rem;
+    background-color: #38547b;
+    color: #fff;
+}
+ 
+#btn{
+    background-color: #38547b;
+    color: #fff;
+    width: 100%;
+}
+button.btn-submit:focus,button.btn-submit:hover{
+    background-color: #38547b;
+}
+
+#img1{
+    
+        width: 160px;
+        height: 100px;
+   
+}

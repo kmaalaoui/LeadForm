@@ -1,0 +1,42 @@
+<div class="row">
+    <div class="col s8 offset-s2">
+      <div class="card">
+        <div class="sm-jumbotron center-align" id="jb">
+            <img class="responsive-img" src="assets\nsia.png" id="img1">
+          <h4>Contactez-Nous </h4>
+        </div>
+        <form class="col s12 white" #userRegistrationForm="ngForm" >
+          <div class="row">
+            <div class="input-field col s6">
+                <i class="material-icons prefix">account_circle</i>
+              <input class="validate" type="text" name="UserName"  required>
+              <label data-error="Champ obligatoire!">Prénom</label>
+            </div>
+            <div class="input-field col s6">
+                <i class="material-icons prefix">account_circle</i>
+                <input class="validate" type="text" name="UserName"  required>
+                <label data-error="Champ obligatoire!">Nom</label>
+            </div>
+          </div>
+          <div class="row">
+            <div class="input-field col s12">
+                <i class="material-icons prefix">contact_mail</i>
+              <input class="validate" type="text" name="Email" >
+              <label data-error="Cet email n'est pas valide!">Email</label>
+            </div>
+          </div>
+          <div class="row">
+              <i class="material-icons prefix">phone</i>
+              <input id="icon_telephone" type="tel" name="Téléphone" class="validate">
+              <label for="icon_telephone">Téléphone</label>
+           
+          </div>
+          <div class="row">
+              <div class="input-field col s12">
+                <button [disabled]="!userRegistrationForm.valid" class="btn waves-effect waves-light" type="submit" id="btn">S'inscrire</button>
+              </div>
+            </div>
+        </form>
+      </div>
+    </div>
+  </div>
